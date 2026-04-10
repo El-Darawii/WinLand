@@ -46,11 +46,11 @@ foreach ($App in $Apps) {
     }
 }
 
-# Install YASB (using pip as it's the common way)
+# Install YASB (using Scoop - recommended method)
 Write-Info "Checking for YASB..."
 if (-not (Get-Command yasb -ErrorAction SilentlyContinue)) {
-    Write-Info "Installing YASB via pip..."
-    pip install yasb
+    Write-Info "Installing YASB via Scoop..."
+    scoop install extras/yasb
     Write-Success "YASB installed."
 }
 

@@ -33,23 +33,91 @@
 Clone this "rice" and deploy your new environment instantly:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/WinLand.git $HOME\dotfiles; cd $HOME\dotfiles; .\scripts\install.ps1
+git clone https://github.com/El-Darawii/WinLand.git $HOME\dotfiles; cd $HOME\dotfiles; .\scripts\install.ps1
 ```
 
-## ⌨️ Keybindings (The Linux Feel)
+## ⌨️ Keybindings
+
+### Komorebi (Window Manager)
 
 | Shortcut | Action |
 | :--- | :--- |
-| `Win + Enter` | **Launch Terminal** (WezTerm) |
-| `Win + W` | **Kill Active Window** |
-| `Win + H/J/K/L` | **Focus Navigation** (Vim-style) |
-| `Win + Shift + H/J/K/L` | **Swap Window Position** |
-| `Win + 1-9` | **Switch Workspaces** |
-| `Win + F` | **Toggle Monocle (Fullscreen)** |
+| `Win + H` | Focus Left |
+| `Win + J` | Focus Down |
+| `Win + K` | Focus Up |
+| `Win + L` | Focus Right |
+| `Win + Shift + H` | Move Window Left |
+| `Win + Shift + J` | Move Window Down |
+| `Win + Shift + K` | Move Window Up |
+| `Win + Shift + L` | Move Window Right |
+| `Win + Alt + H` | Resize Horizontal Decrease |
+| `Win + Alt + J` | Resize Vertical Increase |
+| `Win + Alt + K` | Resize Vertical Decrease |
+| `Win + Alt + L` | Resize Horizontal Increase |
+| `Win + 1-9` | Switch to Workspace 1-9 |
+| `Win + Shift + 1-9` | Move Window to Workspace 1-9 |
+| `Win + F` | Toggle Monocle (Fullscreen) |
+| `Win + W` | Close Window |
+| `Win + Shift + F` | Flip Layout Vertical |
+| `Win + Shift + V` | Flip Layout Horizontal |
+| `Win + \` | Toggle BSP/Scrolling Layout |
+| `Win + [` | Cycle Focus Previous |
+| `Win + ]` | Cycle Focus Next |
+| `Win + Ctrl + R` | Restart Komorebi |
+
+### Application Launchers
+
+| Shortcut | Action |
+| :--- | :--- |
+| `Win + Enter` | Launch WezTerm |
+| `Win + N` | Launch Neovim (Alacritty) |
+| `Win + B` | Launch Brave |
+| `Win + E` | Open Explorer |
+| `Win + D` | Launch Discord |
+| `Win + Shift + W` | Launch WhatsApp |
+| `Win + M` | Launch Spotify |
+| `Win + Space` | Send Alt+Space (Start Menu) |
+
+### WezTerm (Terminal)
+
+| Shortcut | Action |
+| :--- | :--- |
+| `Ctrl + Space` | Leader Key (tmux-style) |
+| `Leader + V` | Split Vertical |
+| `Leader + H` | Split Horizontal |
+| `Leader + X` | Close Pane |
+| `Leader + Z` | Toggle Pane Zoom |
+| `Leader + C` | New Tab |
+| `Leader + K` | Close Tab |
+| `Leader + R` | Rename Tab |
+| `Leader + S` | Show Launcher (Workspaces) |
+| `Leader + N` | Next Workspace |
+| `Leader + P` | Previous Workspace |
+| `Ctrl + Alt + Arrow` | Navigate Panes |
+| `Ctrl + Alt + Shift + Arrow` | Resize Panes |
+| `Alt + 1-9` | Switch to Tab 1-9 |
+| `Alt + Left/Right` | Previous/Next Tab |
+| `Ctrl + =/-` | Font Size +/- |
+| `Ctrl + 0` | Reset Font Size |
+
+### YASB (Status Bar)
+
+| Action | Shortcut |
+| :--- | :--- |
+| Toggle Monocle | Middle-click layout widget |
+| Toggle Float | Right-click layout widget |
+| Layout Menu | Right-click on layout icon |
+| Toggle Microphone | `Alt + Backspace` |
+
+### System
+
+| Shortcut | Action |
+| :--- | :--- |
+| `Win + Alt + Backspace` | Toggle Microphone Mute |
+| Tray Menu | Right-click YASB tray icon |
 
 ---
 
 <p align="center">
   Built with passion for those who hate using a mouse. 🐭🚫
 </p>
-

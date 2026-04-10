@@ -136,8 +136,7 @@ widgets:
         label_window_active: "{title}"
         label_no_window: "¯\\_( ͡°&deg; ͜ʖ ͡&deg;)_/¯"
         label_zero_index: false
-        label_offline: "(ಥ _ ಥ)  {{{(>_<)}}}  （＞人＜；）            Komorebi Offline            
-つ﹏⊂ .·´¯`(>▂<)´¯`·.  o(TヘTo)"
+        label_offline: "(ಥ _ ಥ) {{{(>_<)}}} （＞人＜；） Komorebi Offline"
         show_icons: "always"
         icon_size: 24
         max_length: 12
