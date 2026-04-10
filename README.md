@@ -40,11 +40,12 @@ git clone https://github.com/YOUR_USERNAME/WinLand.git $HOME\dotfiles; cd $HOME\
 
 | Shortcut | Action |
 | :--- | :--- |
-| `Alt + Enter` | **Launch Terminal** (WezTerm) |
-| `Alt + Q` | **Kill Active Window** |
-| `Alt + H/J/K/L` | **Focus Navigation** (Vim-style) |
-| `Alt + Shift + H/J/K/L` | **Swap Window Position** |
-| `Alt + 1-9` | **Switch Workspaces** |
+| `Win + Enter` | **Launch Terminal** (WezTerm) |
+| `Win + W` | **Kill Active Window** |
+| `Win + H/J/K/L` | **Focus Navigation** (Vim-style) |
+| `Win + Shift + H/J/K/L` | **Swap Window Position** |
+| `Win + 1-9` | **Switch Workspaces** |
+| `Win + F` | **Toggle Monocle (Fullscreen)** |
 
 ---
 
