@@ -1,0 +1,208 @@
+:root {
+        --color-primary: rgba(0, 0, 0, 0);
+        --color-primary-focus: rgba(255, 255, 255, 0.03);
+        --color-primary-hover: rgba(255, 255, 255, 0.05);
+        --color-primary-active: rgba(255, 255, 255, 0.08);
+
+        --color-accent: rgba(255, 255, 255, 0.1);
+
+        --overlay-background: rgba(0, 0, 0, 0.1);
+
+        --container-padding: 0 16px;
+        --container-border-radius: 20px;
+}
+
+/* GLOBAL */
+* {
+        border: none;
+        font-family: "Segoe UI", "UbuntuSansMono NFP";
+}
+
+*:focus,
+*:active {
+        outline: none;
+}
+
+/* YASB GENERAL */
+.yasb-bar {
+        padding: 0 8px;
+        margin: 0;
+        background-color: transparent;
+}
+
+.widget-container {
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 5px 8px;
+        border-radius: var(--container-border-radius);
+        background-color: transparent;
+        box-shadow: none;
+}
+
+.widget {
+        padding: 5px 0;
+}
+/* END YASB GENERAL */
+
+/* KOMOREBI WORKSPACES */
+.komorebi-workspaces .widget-container {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+}
+
+.komorebi-workspaces .ws-btn.populated,
+.komorebi-workspaces .ws-btn.active,
+.komorebi-workspaces .ws-btn .label {
+        background-color: var(--color-primary);
+        font-size: 24px;
+        margin: 0 4px;
+        border-radius: 14px;
+        border-bottom-left-radius: 6px;
+        border-top-left-radius: 6px;
+}
+
+.komorebi-workspaces .ws-btn .label:hover,
+.komorebi-workspaces .ws-btn.populated:hover {
+        background-color: var(--color-primary-hover);
+}
+
+.komorebi-workspaces .ws-btn.populated {
+        background-color: var(--color-primary-focus);
+}
+
+.komorebi-workspaces .ws-btn.active {
+        background-color: var(--color-accent);
+}
+
+.komorebi-workspaces .ws-btn.active .label {
+        background-color: transparent;
+}
+
+.komorebi-workspaces .ws-btn.populated .icon {
+        padding: 0 4px;
+}
+
+.komorebi-workspaces .ws-btn.active .icon {
+        padding: 0 8px;
+}
+/* END KOMOREBI WORKSPACES */
+
+/* KOMOREBI STACK */
+.komorebi-stack .offline-status,
+.komorebi-stack .no-window,
+.komorebi-stack .window {
+        padding: var(--container-padding);
+        border-radius: 14px;
+}
+
+.komorebi-stack .no-window,
+.komorebi-stack .offline-status {
+        background-color: var(--color-primary);
+        border-radius: var(--container-border-radius);
+}
+
+.komorebi-stack .window {
+        margin: 0 4px;
+}
+
+.komorebi-stack .window:hover {
+        background-color: var(--color-primary-hover);
+}
+
+.komorebi-stack .window .icon {
+        margin-right: 12px;
+        margin-top: 4px;
+}
+
+.komorebi-stack .window.active .label {
+        color: #fafafa;
+}
+
+.komorebi-stack .window.active,
+.komorebi-stack .window.active:hover {
+        background-color: var(--color-accent);
+}
+/* END KOMOREBI STACK */
+
+/* KOMOREBI ACTIVE LAYOUT */
+.komorebi-active-layout .widget-container {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+}
+
+.komorebi-active-layout .widget-container:hover {
+        background-color: var(--color-primary-hover);
+}
+
+.komorebi-active-layout .label {
+        margin: 0 8px;
+}
+
+.komorebi-layout-menu {
+    background-color: var(--overlay-background);
+}
+
+.komorebi-layout-menu .menu-item {
+    padding: 8px 16px;
+}
+
+.komorebi-layout-menu .menu-item-icon {
+    font-size: 24px;
+}
+
+.komorebi-layout-menu .menu-item-text {
+    padding-left: 4px;
+}
+
+.komorebi-layout-menu .menu-item:hover {
+    background-color:rgba(128, 130, 158, 0.15);
+}
+
+.komorebi-layout-menu .separator {
+    max-height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+/* END KOMOREBI ACTIVE LAYOUT */
+
+/* OLLAMA CHAT WIDGET */
+.ollama-chat-widget .widget-container {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+}
+
+.ollama-chat-widget .widget-container:hover {
+        background-color: var(--color-primary-hover);
+}
+
+.ollama-chat-widget .label {
+        margin: 0 8px;
+        font-size: 14px;
+}
+/* END OLLAMA CHAT WIDGET */
+
+/* MICROPHONE WIDGET */
+.microphone-widget .widget-container {
+        background-color: var(--color-primary);
+        border: 1px solid rgba(255, 255, 255, 0.03);
+        transition: all 0.2s ease;
+}
+
+.microphone-widget .widget-container:hover {
+        background-color: var(--color-primary-hover);
+        border-color: rgba(255, 255, 255, 0.08);
+}
+
+.microphone-widget .icon {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        transition: color 0.2s ease;
+}
+
+.microphone-widget .icon.muted {
+        color: rgba(255, 100, 100, 0.8);
+}
+
+.microphone-widget .label {
+        margin: 0 4px;
+}
+/* END MICROPHONE WIDGET */

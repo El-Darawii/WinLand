@@ -1,0 +1,177 @@
+managed:
+  - name: "Alacritty"
+    identifier:
+      type: Exe
+      id: "alacritty.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "WhatsApp"
+    identifier:
+      type: Exe
+      id: "WhatsApp.Root.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "Brave Browser"
+    identifier:
+      type: Exe
+      id: "brave.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "Google Chrome"
+    identifier:
+      type: Exe
+      id: "chrome.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "Mozilla Firefox"
+    identifier:
+      type: Exe
+      id: "firefox.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "Microsoft Edge"
+    identifier:
+      type: Exe
+      id: "msedge.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "Zen Browser"
+    identifier:
+      type: Exe
+      id: "zen.exe"
+    options:
+      - ObjectNameChange
+
+  - name: "Windows Terminal"
+    identifier:
+      type: Exe
+      id: "WindowsTerminal.exe"
+
+  - name: "Visual Studio Code"
+    identifier:
+      type: Exe
+      id: "Code.exe"
+
+  - name: "File Explorer"
+    identifier:
+      type: Exe
+      id: "explorer.exe"
+    options:
+      - TileWithSameAppExeBehaviour
+
+float:
+  - name: "CabinetWClass"
+    identifier:
+      type: Class
+      id: "CabinetWClass"
+
+  - name: "CCPFrame"
+    identifier:
+      type: Class
+      id: "CCPFrame"
+
+  - name: "Windows Settings"
+    identifier:
+      type: Exe
+      id: "SystemSettings.exe"
+
+  - name: "Calculator"
+    identifier:
+      type: Exe
+      id: "CalculatorApp.exe"
+
+  - name: "Task Manager"
+    identifier:
+      type: Class
+      id: "TaskManagerWindow"
+
+  - name: "Snipping Tool"
+    identifier:
+      type: Exe
+      id: "SnippingTool.exe"
+
+  - name: "PowerToys"
+    identifier:
+      type: Exe
+      id: "PowerToys.exe"
+
+  - name: "JetBrains Dialogs"
+    identifier:
+      type: Class
+      id: "SunAwtDialog"
+
+  - name: "Picture in Picture"
+    identifier:
+      type: Title
+      id: "Picture in picture"
+
+  - name: "Dialogs"
+    identifier:
+      type: Class
+      id: "#32770"
+
+  - name: "Credential Dialog"
+    identifier:
+      type: Class
+      id: "Credential Dialog Xaml Host"
+
+  - name: "Windows Security Alert"
+    identifier:
+      type: Class
+      id: "NativeHWNDHost"
+
+  - name: "1Password"
+    identifier:
+      type: Exe
+      id: "1Password.exe"
+
+  - name: "Telegram"
+    identifier:
+      type: Exe
+      id: "Telegram.exe"
+
+  - name: "Steam"
+    identifier:
+      type: Exe
+      id: "steam.exe"
+
+  - name: "Steam Big Picture"
+    identifier:
+      type: Class
+      id: "CGameOverlayUIApp"
+
+unmanaged:
+  - name: "Screenshot Host"
+    identifier:
+      type: Exe
+      id: "ScreenClippingHost.exe"
+
+  - name: "Screen Clipping"
+    identifier:
+      type: Class
+      id: "Msghost"
+
+  - name: "Snipping Tool Process"
+    identifier:
+      type: Exe
+      id: "SnippingToolProcess.exe"
+
+  - name: "Snipping Tool"
+    identifier:
+      type: Exe
+      id: "SnippingTool.exe"
+
+  - name: "YASB"
+    identifier:
+      type: Exe
+      id: "yasb.exe"
+  - name: "Zebar"
+    identifier:
+      type: Exe
+      id: "zebar.exe"

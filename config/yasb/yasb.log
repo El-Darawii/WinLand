@@ -1,0 +1,1562 @@
+2026-03-28 01:58:00,029 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 01:58:00,030 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 01:58:00,030 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 01:58:00,150 [INFO] [MainThread] [root/config.py:59]: Created default config file at C:\Users\pc\.config\yasb\config.yaml
+2026-03-28 01:58:00,168 [INFO] [MainThread] [root/config.py:73]: Created default stylesheet at C:\Users\pc\.config\yasb\styles.css
+2026-03-28 01:58:00,855 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-03-28 01:58:00,886 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-28 01:58:01,058 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-03-28 01:58:01,058 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 01:58:01,058 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-03-28 01:58:01,059 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 01:58:01,059 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 01:58:01,300 [INFO] [Dummy-7] [root/event_listener.py:55]: Created named pipe yasb-c9653eb9-2a38-11f1-813c-ac361bece2a7
+2026-03-28 01:58:01,313 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 01:58:01,365 [INFO] [MainThread] [root/open_meteo.py:138]: No saved location for open_meteo. Awaiting user setup.
+2026-03-28 01:58:01,366 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for C:\Program Files\Alacritty\alacritty.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-03-28 01:58:01,398 [INFO] [Dummy-7] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-c9653eb9-2a38-11f1-813c-ac361bece2a7
+2026-03-28 01:58:03,238 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for C:\Users\pc\scoop\apps\komorebi\0.1.40\komorebi.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-03-28 02:00:06,191 [WARNING] [Dummy-7] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:00:06,192 [INFO] [Dummy-7] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:00:09,199 [INFO] [Dummy-7] [root/event_listener.py:55]: Created named pipe yasb-c9653eb9-2a38-11f1-813c-ac361bece2a7
+2026-03-28 02:02:15,214 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 02:02:15,229 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-28 02:02:15,332 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 02:02:15,333 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 02:02:15,337 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-28 02:02:15,478 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-03-28 02:02:15,487 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-28 02:02:15,491 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-03-28 02:02:15,626 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:02:15,627 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:02:15,627 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:02:16,129 [ERROR] [MainThread] [root/widget_builder.py:84]: Failed to import widget with type yasb.cpu.CPUWidget
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\widget_builder.py", line 45, in _build_widget
+AttributeError: module 'core.widgets.yasb.cpu' has no attribute 'CPUWidget'. Did you mean: 'CpuWidget'?
+2026-03-28 02:02:16,166 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-28 02:02:17,061 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-28 02:02:17,064 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-03-28 02:02:17,064 [ERROR] [MainThread] [root/widget_builder.py:126]: Failed to build widget(s) due to unknown widget type(s)  - cpu has unknown type "yasb.cpu.CPUWidget"
+2026-03-28 02:02:17,091 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:02:17,091 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:02:17,122 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:02:17,225 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pc\AppData\Local\YASB\systray_state_EKLTDODYSSEYG5HK2X300940.json
+2026-03-28 02:02:17,225 [DEBUG] [MainThread] [systray_widget/systray.py:624]: State file not found.
+2026-03-28 02:02:17,227 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-28 02:02:17,261 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-28 02:02:17,516 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 02:02:17.516772
+2026-03-28 02:02:17,558 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 19534778
+2026-03-28 02:02:17,568 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49343
+2026-03-28 02:02:17,569 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-28 02:05:26,146 [DEBUG] [Thread-5] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 02:08:21,582 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from context menu...
+2026-03-28 02:08:21,689 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 02:08:21,689 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 02:08:21,808 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-03-28 02:08:21,811 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-28 02:08:21,812 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pc\AppData\Local\YASB\systray_state_EKLTDODYSSEYG5HK2X300940.json
+2026-03-28 02:08:21,812 [DEBUG] [MainThread] [systray_widget/systray.py:604]: State file not found.
+2026-03-28 02:08:21,812 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 19534778
+2026-03-28 02:08:21,813 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 19534778
+2026-03-28 02:08:21,813 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 19534778
+2026-03-28 02:19:10,910 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:19:10,911 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:19:10,911 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:19:11,775 [ERROR] [MainThread] [root/widget_builder.py:84]: Failed to import widget with type yasb.cpu.CPUWidget
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\widget_builder.py", line 45, in _build_widget
+AttributeError: module 'core.widgets.yasb.cpu' has no attribute 'CPUWidget'. Did you mean: 'CpuWidget'?
+2026-03-28 02:19:11,809 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-28 02:19:12,329 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-28 02:19:12,332 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-03-28 02:19:12,332 [ERROR] [MainThread] [root/widget_builder.py:126]: Failed to build widget(s) due to unknown widget type(s)  - cpu has unknown type "yasb.cpu.CPUWidget"
+2026-03-28 02:19:12,558 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:19:12,559 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:19:12,586 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:19:12,693 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\pc\AppData\Local\YASB\systray_state_EKLTDODYSSEYG5HK2X300940.json
+2026-03-28 02:19:12,694 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-28 02:19:12,724 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-28 02:19:13,033 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 1184894
+2026-03-28 02:19:13,048 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49343
+2026-03-28 02:19:13,048 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-28 02:19:13,345 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 02:19:13.345273
+2026-03-28 02:26:48,267 [DEBUG] [Thread-5] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 02:26:48,276 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 02:26:48,346 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-28 02:26:48,455 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 02:26:48,455 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 02:26:48,460 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-28 02:26:48,512 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-03-28 02:26:48,520 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-28 02:26:48,524 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\pc\AppData\Local\YASB\systray_state_EKLTDODYSSEYG5HK2X300940.json
+2026-03-28 02:26:48,524 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 1184894
+2026-03-28 02:26:48,607 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 1184894
+2026-03-28 02:26:48,607 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 1184894
+2026-03-28 02:26:48,769 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:26:48,769 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:26:48,769 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:26:49,450 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 02:26:49,452 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:26:49,452 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:26:49,471 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-cf98f1d2-2a3c-11f1-a4a9-ac361bece2a7
+2026-03-28 02:26:49,477 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:26:49,551 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-cf98f1d2-2a3c-11f1-a4a9-ac361bece2a7
+2026-03-28 02:29:42,434 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 02:33:41,755 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 02:34:50,692 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:34:50,692 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:37:12,167 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:37:12,168 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:37:12,168 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:37:12,810 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 02:37:12,811 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:37:12,811 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:37:12,812 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-432611c0-2a3e-11f1-a352-ac361bece2a7
+2026-03-28 02:37:12,863 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:37:12,949 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-432611c0-2a3e-11f1-a352-ac361bece2a7
+2026-03-28 02:41:12,621 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:41:12,621 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:41:16,386 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:41:16,387 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:41:16,387 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:41:17,107 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 02:41:17,108 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:41:17,108 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:41:17,108 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:41:17,137 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:42:02,875 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:42:12,011 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:42:12,011 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:42:15,021 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:43:05,872 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:43:09,266 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:43:09,266 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:43:12,281 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:44:03,093 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:44:10,759 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:44:10,759 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:44:13,765 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:44:29,047 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:44:45,749 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:44:45,749 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:44:48,750 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-d4c2e442-2a3e-11f1-888b-ac361bece2a7
+2026-03-28 02:46:54,588 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:46:54,588 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:46:54,588 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:46:55,070 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 02:46:55,071 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:46:55,071 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:46:55,083 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-9e33fa5f-2a3f-11f1-8516-ac361bece2a7
+2026-03-28 02:46:55,091 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:54:27,708 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:54:27,708 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:54:27,708 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:54:28,260 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 02:54:28,260 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:54:28,261 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:54:28,274 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-ac53362d-2a40-11f1-b05b-ac361bece2a7
+2026-03-28 02:54:28,280 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:54:28,337 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-ac53362d-2a40-11f1-b05b-ac361bece2a7
+2026-03-28 02:55:48,904 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 02:55:48,904 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 02:55:51,908 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-ac53362d-2a40-11f1-b05b-ac361bece2a7
+2026-03-28 02:56:44,967 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 02:56:44,968 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 02:56:44,968 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 02:56:45,582 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 02:56:45,583 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 02:56:45,583 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 02:56:45,596 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-fe2ce2c8-2a40-11f1-90d8-ac361bece2a7
+2026-03-28 02:56:45,601 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 02:56:45,658 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-fe2ce2c8-2a40-11f1-90d8-ac361bece2a7
+2026-03-28 03:01:08,046 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 03:01:08,046 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 03:01:08,050 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-28 03:01:08,145 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 03:01:08,155 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 03:01:08,155 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 03:01:08,159 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-28 03:01:08,327 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-28 03:01:08,452 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:01:08,453 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:01:08,453 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:01:09,023 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:01:09,023 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+      - Field required
+      
+2026-03-28 03:01:09,025 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-9b32dbe8-2a41-11f1-ba6c-ac361bece2a7
+2026-03-28 03:01:09,044 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:01:09,044 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:01:09,057 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:01:09,108 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-9b32dbe8-2a41-11f1-ba6c-ac361bece2a7
+2026-03-28 03:01:09,321 [ERROR] [MainThread] [root/app_icons.py:282]: GetIconInfo failed: 1990333631
+2026-03-28 03:02:25,797 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:02:25,797 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:02:28,798 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-9b32dbe8-2a41-11f1-ba6c-ac361bece2a7
+2026-03-28 03:02:28,857 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-9b32dbe8-2a41-11f1-ba6c-ac361bece2a7
+2026-03-28 03:02:43,554 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:02:43,554 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:02:47,912 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:02:47,912 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:02:47,912 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:02:48,761 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:02:48,762 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+      - Field required
+      
+2026-03-28 03:02:48,764 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-d6a5bc92-2a41-11f1-aab3-ac361bece2a7
+2026-03-28 03:02:49,007 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d6a5bc92-2a41-11f1-aab3-ac361bece2a7
+2026-03-28 03:02:49,008 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:02:49,008 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:02:49,022 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:04:30,280 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 03:04:30,281 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-28 03:04:30,289 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 03:04:30,385 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 03:04:30,385 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 03:04:30,389 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-28 03:04:30,518 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-28 03:04:30,672 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:04:30,672 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:04:30,672 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:04:31,289 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:04:31,289 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 03:04:31,291 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-13c21c96-2a42-11f1-9e25-ac361bece2a7
+2026-03-28 03:04:31,310 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:04:31,310 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:04:31,327 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:04:36,427 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-13c21c96-2a42-11f1-9e25-ac361bece2a7
+2026-03-28 03:07:04,280 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 03:07:04,303 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 03:07:04,308 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-28 03:07:04,418 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 03:07:04,418 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 03:07:04,422 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-28 03:07:04,546 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-28 03:07:04,716 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:07:04,716 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:07:04,717 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:07:05,448 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:07:05,448 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 03:07:05,449 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:07:05,468 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:07:05,468 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:07:05,483 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:07:05,513 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:07:05,771 [ERROR] [MainThread] [root/app_icons.py:282]: GetIconInfo failed: 197591929
+2026-03-28 03:07:23,026 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:07:23,026 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:07:26,026 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:07:26,080 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:08:53,113 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:08:53,113 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:08:56,114 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:08:56,157 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:09:11,632 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-28 03:09:19,102 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:09:19,102 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:09:22,108 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:09:22,153 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:10:41,003 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:10:41,003 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:10:44,004 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:10:44,051 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-6fa4efc4-2a42-11f1-92f4-ac361bece2a7
+2026-03-28 03:11:21,369 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 03:11:21,373 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-28 03:11:21,487 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-28 03:11:21,488 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-28 03:11:21,492 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-28 03:11:21,627 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-28 03:11:21,785 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:11:21,786 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:11:21,786 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:11:22,345 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:11:22,346 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 03:11:22,347 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:11:22,367 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:11:22,367 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:11:22,384 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:11:22,415 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:11:22,689 [ERROR] [MainThread] [root/app_icons.py:282]: GetIconInfo failed: 558762487
+2026-03-28 03:11:29,232 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:11:29,232 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:11:32,234 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:11:32,280 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:11:59,387 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:11:59,388 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:12:02,388 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:12:02,435 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:13:05,269 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:13:05,270 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:13:08,276 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:14:08,957 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:15:38,769 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:15:38,770 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:15:41,773 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:15:41,820 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-08c466e0-2a43-11f1-9a9f-ac361bece2a7
+2026-03-28 03:20:38,111 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:20:38,112 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:20:41,853 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:20:41,853 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:20:41,854 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:20:42,664 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:20:42,665 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 03:20:42,679 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-56be4aa3-2a44-11f1-87ec-ac361bece2a7
+2026-03-28 03:20:42,685 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:20:42,685 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:20:42,701 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:21:53,549 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-56be4aa3-2a44-11f1-87ec-ac361bece2a7
+2026-03-28 03:23:58,342 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:23:58,342 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:24:01,354 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-56be4aa3-2a44-11f1-87ec-ac361bece2a7
+2026-03-28 03:24:01,397 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-56be4aa3-2a44-11f1-87ec-ac361bece2a7
+2026-03-28 03:26:14,261 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:26:14,262 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:26:17,996 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:26:17,996 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:26:17,996 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:26:18,568 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:26:18,568 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 03:26:18,571 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-1ef51d0c-2a45-11f1-a675-ac361bece2a7
+2026-03-28 03:26:18,595 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:26:18,595 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:26:18,611 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:26:18,631 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1ef51d0c-2a45-11f1-a675-ac361bece2a7
+2026-03-28 03:29:09,001 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 03:29:09,001 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 03:29:12,004 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-1ef51d0c-2a45-11f1-a675-ac361bece2a7
+2026-03-28 03:29:44,308 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 03:29:44,308 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 03:29:44,308 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 03:29:44,864 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 03:29:44,865 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 03:29:44,867 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-99eb744c-2a45-11f1-a9a2-ac361bece2a7
+2026-03-28 03:29:44,888 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 03:29:44,888 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 03:29:44,906 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 03:29:44,934 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-99eb744c-2a45-11f1-a9a2-ac361bece2a7
+2026-03-28 16:47:13,358 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-28 16:48:29,536 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 16:48:29,536 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 16:48:32,543 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-99eb744c-2a45-11f1-a9a2-ac361bece2a7
+2026-03-28 16:49:33,271 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-99eb744c-2a45-11f1-a9a2-ac361bece2a7
+2026-03-28 16:56:56,284 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 16:56:56,284 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 16:57:00,049 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-28 16:57:00,049 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-28 16:57:00,050 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-28 16:57:00,633 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-28 16:57:00,634 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - ai_chat
+      providers:
+        0:
+          provider:
+          - Field required
+          name:
+          - Extra inputs are not permitted
+          api_key:
+          - Extra inputs are not permitted
+      
+2026-03-28 16:57:00,635 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 16:57:00,656 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-28 16:57:00,656 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-28 16:57:00,676 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-28 16:57:00,703 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:02:01,208 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 17:02:01,208 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 17:02:04,221 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:03:15,076 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:16:50,205 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 17:16:50,205 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 17:16:53,210 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:16:53,258 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:17:58,306 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 17:17:58,306 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 17:18:01,306 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:18:01,350 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:19:41,230 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 17:19:41,231 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 17:19:44,231 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:19:44,274 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:20:42,623 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 17:20:42,624 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 17:20:45,625 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-28 17:20:45,670 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5fe3460d-2ab6-11f1-93ad-ac361bece2a7
+2026-03-29 02:22:58,554 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-29 02:24:09,913 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-29 02:26:12,929 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-29 02:26:12,934 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-29 02:26:13,049 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 02:26:13,049 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 02:26:13,058 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-29 02:26:13,078 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-29 02:26:14,025 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 02:26:14,025 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 02:26:14,025 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 02:26:14,277 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'ollama_chat
+2026-03-29 02:26:14,823 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 02:26:14,823 [ERROR] [MainThread] [root/widget_builder.py:97]: Failed to add undefined widget(s)  - The widget "ollama_chat" is undefined.
+2026-03-29 02:26:14,825 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-e55f0025-2b05-11f1-ade4-ac361bece2a7
+2026-03-29 02:26:15,079 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e55f0025-2b05-11f1-ade4-ac361bece2a7
+2026-03-29 02:26:15,080 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-29 02:26:15,080 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 02:26:15,102 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 02:26:23,645 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-03-29 02:26:47,377 [WARNING] [Dummy-3] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-29 02:26:47,378 [INFO] [Dummy-3] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-29 02:26:51,575 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 02:26:51,575 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 02:26:51,576 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 02:26:51,632 [ERROR] [MainThread] [root/widget_builder.py:84]: Failed to import widget with type yasb.ollama_chat.OllamaChatWidget
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\utils\widget_builder.py", line 44, in _build_widget
+  File "C:\hostedtoolcache\windows\Python\3.14.3\x64\Lib\importlib\__init__.py", line 88, in import_module
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1335, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'core.widgets.yasb.ollama_chat'
+2026-03-29 02:26:52,289 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 02:26:52,290 [ERROR] [MainThread] [root/widget_builder.py:126]: Failed to build widget(s) due to unknown widget type(s)  - ollama_chat has unknown type "yasb.ollama_chat.OllamaChatWidget"
+2026-03-29 02:26:52,292 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-fbb3ec9a-2b05-11f1-b032-ac361bece2a7
+2026-03-29 02:26:52,311 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-29 02:26:52,311 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 02:26:52,340 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 02:26:52,363 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-fbb3ec9a-2b05-11f1-b032-ac361bece2a7
+2026-03-29 02:27:44,533 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-29 02:27:44,537 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-29 02:27:44,651 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 02:27:44,651 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 02:27:44,655 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-29 02:27:44,665 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-29 02:27:44,920 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 02:27:44,920 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 02:27:44,920 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 02:27:45,399 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 02:27:45,402 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-29 02:27:45,402 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 02:27:45,403 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-1b5c2df3-2b06-11f1-82d6-ac361bece2a7
+2026-03-29 02:27:45,423 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 02:27:45,474 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1b5c2df3-2b06-11f1-82d6-ac361bece2a7
+2026-03-29 02:27:47,095 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-29 02:27:47,099 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-29 02:27:47,201 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 02:27:47,202 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 02:27:47,206 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-29 02:27:47,222 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-29 02:27:47,466 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 02:27:47,466 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 02:27:47,466 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 02:27:47,945 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 02:27:47,945 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-29 02:27:47,946 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 02:27:47,946 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-1ce03f80-2b06-11f1-b317-ac361bece2a7
+2026-03-29 02:27:47,976 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 02:27:48,006 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1ce03f80-2b06-11f1-b317-ac361bece2a7
+2026-03-29 02:28:36,008 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-29 02:28:36,012 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-29 02:28:36,120 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 02:28:36,121 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 02:28:36,125 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-29 02:28:36,136 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-29 02:28:36,391 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 02:28:36,391 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 02:28:36,391 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 02:28:36,446 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'ollama_chat
+2026-03-29 02:28:36,888 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 02:28:36,888 [ERROR] [MainThread] [root/widget_builder.py:97]: Failed to add undefined widget(s)  - The widget "ollama_chat" is undefined.
+2026-03-29 02:28:36,890 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-3a0c62ae-2b06-11f1-8dbe-ac361bece2a7
+2026-03-29 02:28:36,911 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-29 02:28:36,911 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 02:28:36,930 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 02:28:36,964 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-3a0c62ae-2b06-11f1-8dbe-ac361bece2a7
+2026-03-29 02:28:41,647 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-03-29 02:28:41,651 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-29 02:28:41,755 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 02:28:41,756 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 02:28:41,760 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-29 02:28:41,774 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-29 02:28:42,044 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 02:28:42,045 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 02:28:42,045 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 02:28:42,652 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 02:28:42,654 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-29 02:28:42,655 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 02:28:42,655 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-3d7bff24-2b06-11f1-a799-ac361bece2a7
+2026-03-29 02:28:42,677 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 02:28:42,718 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-3d7bff24-2b06-11f1-a799-ac361bece2a7
+2026-03-30 22:36:12,239 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-30 22:36:12,242 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-30 22:36:15,248 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-3d7bff24-2b06-11f1-a799-ac361bece2a7
+2026-03-30 22:36:26,244 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-30 22:36:26,245 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-30 22:36:26,245 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-30 22:36:27,485 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-30 22:36:27,485 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-03-30 22:36:27,485 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-30 22:36:27,486 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-204daa86-2c78-11f1-9521-ac361bece2a7
+2026-03-30 22:36:27,757 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-30 22:36:27,811 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-204daa86-2c78-11f1-9521-ac361bece2a7
+2026-04-01 15:17:24,040 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-01 15:17:24,040 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-01 15:17:27,050 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-204daa86-2c78-11f1-9521-ac361bece2a7
+2026-04-01 15:17:48,618 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 15:17:48,619 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 15:17:48,619 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 15:17:49,279 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 15:17:49,280 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 15:17:49,280 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 15:17:49,280 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-2e41ace6-2dcd-11f1-ac5b-ac361bece2a7
+2026-04-01 15:17:49,496 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-2e41ace6-2dcd-11f1-ac5b-ac361bece2a7
+2026-04-01 15:17:49,498 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:07:09,492 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:07:09,498 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:07:09,602 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:07:09,602 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:07:09,611 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:07:09,621 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:07:10,493 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:07:10,493 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:07:10,494 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:07:11,302 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:07:11,302 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-13c274df-2dd4-11f1-992e-ac361bece2a7
+2026-04-01 16:07:11,304 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:07:11,305 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:07:11,530 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-13c274df-2dd4-11f1-992e-ac361bece2a7
+2026-04-01 16:07:11,530 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:09:53,305 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:09:53,306 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:09:53,306 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:09:53,843 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:09:53,844 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:09:53,844 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:09:53,844 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-74a449ec-2dd4-11f1-8dd7-ac361bece2a7
+2026-04-01 16:09:53,869 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:09:53,900 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-74a449ec-2dd4-11f1-8dd7-ac361bece2a7
+2026-04-01 16:11:48,458 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:11:48,463 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:11:48,818 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:11:48,819 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:11:48,819 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:11:49,526 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:11:49,527 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:11:49,527 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:11:49,571 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-b99817db-2dd4-11f1-a607-ac361bece2a7
+2026-04-01 16:11:49,582 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:11:49,661 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-b99817db-2dd4-11f1-a607-ac361bece2a7
+2026-04-01 16:15:12,617 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:15:12,622 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:15:12,728 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:15:12,728 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:15:12,732 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:15:12,745 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:15:13,013 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:15:13,013 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:15:13,013 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:15:13,082 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'clock
+2026-04-01 16:15:13,542 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:15:13,543 [ERROR] [MainThread] [root/widget_builder.py:97]: Failed to add undefined widget(s)  - The widget "clock" is undefined.
+2026-04-01 16:15:13,549 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-33328e3f-2dd5-11f1-949c-ac361bece2a7
+2026-04-01 16:15:13,595 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:15:13,595 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:15:13,613 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:15:13,630 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-33328e3f-2dd5-11f1-949c-ac361bece2a7
+2026-04-01 16:15:16,156 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:15:16,160 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:15:16,264 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:15:16,265 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:15:16,272 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:15:16,308 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:15:16,555 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:15:16,556 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:15:16,556 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:15:16,900 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:15:16,901 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:15:16,902 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:15:16,902 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-3532ea10-2dd5-11f1-8e48-ac361bece2a7
+2026-04-01 16:15:16,927 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:15:16,960 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-3532ea10-2dd5-11f1-8e48-ac361bece2a7
+2026-04-01 16:19:41,368 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:19:41,373 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:19:41,474 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:19:41,474 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:19:41,479 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:19:41,490 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:19:41,762 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:19:41,762 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:19:41,762 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:19:41,824 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'media
+2026-04-01 16:19:41,824 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'microphone
+2026-04-01 16:19:42,099 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:19:42,100 [ERROR] [MainThread] [root/widget_builder.py:97]: Failed to add undefined widget(s)  - The widget "microphone" is undefined.
+ - The widget "media" is undefined.
+2026-04-01 16:19:42,100 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-d3451855-2dd5-11f1-8b79-ac361bece2a7
+2026-04-01 16:19:42,124 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:19:42,124 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:19:42,140 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:19:42,163 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d3451855-2dd5-11f1-8b79-ac361bece2a7
+2026-04-01 16:19:47,914 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:19:47,921 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:19:48,025 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:19:48,025 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:19:48,029 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:19:48,101 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:19:48,299 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:19:48,299 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:19:48,299 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:19:48,848 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:19:48,848 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - media
+      max_field_size:
+      - Input should be a valid dictionary or instance of MaxFieldSizeConfig
+      
+ - microphone
+      volume_icons:
+      - Extra inputs are not permitted
+      
+2026-04-01 16:19:48,850 [INFO] [Dummy-3] [root/event_listener.py:55]: Created named pipe yasb-d74adeec-2dd5-11f1-8f4a-ac361bece2a7
+2026-04-01 16:19:48,873 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:19:48,873 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:19:48,899 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:19:48,933 [INFO] [Dummy-3] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d74adeec-2dd5-11f1-8f4a-ac361bece2a7
+2026-04-01 16:22:41,212 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:22:41,218 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:22:41,329 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:22:41,329 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:22:41,334 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:22:41,349 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:22:41,609 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:22:41,609 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:22:41,609 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:22:41,733 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:22:42,110 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:22:42,110 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:22:42,111 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:22:42,111 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-3e9079c0-2dd6-11f1-824d-ac361bece2a7
+2026-04-01 16:22:42,133 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:22:42,187 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-3e9079c0-2dd6-11f1-824d-ac361bece2a7
+2026-04-01 16:44:55,709 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:44:55,715 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:44:55,822 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:44:55,822 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:44:55,827 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:44:55,849 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:44:56,739 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:44:56,739 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:44:56,739 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:44:56,859 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'komorebi_control
+2026-04-01 16:44:56,974 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'active_window
+2026-04-01 16:44:57,133 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:44:57,852 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:44:57,852 [ERROR] [MainThread] [root/widget_builder.py:97]: Failed to add undefined widget(s)  - The widget "komorebi_control" is undefined.
+ - The widget "active_window" is undefined.
+2026-04-01 16:44:57,856 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-5aba9512-2dd9-11f1-97d1-ac361bece2a7
+2026-04-01 16:44:58,104 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5aba9512-2dd9-11f1-97d1-ac361bece2a7
+2026-04-01 16:44:58,106 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:44:58,107 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:44:58,128 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:44:59,548 [DEBUG] [Thread-7] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:44:59,570 [DEBUG] [Thread-7] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:44:59,571 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:44:59,675 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:44:59,675 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:44:59,679 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:44:59,727 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:44:59,947 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:44:59,947 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:44:59,948 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:45:00,068 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:45:00,383 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:45:00,383 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-01 16:45:00,384 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:45:00,385 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:45:00,384 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-5c3cba8a-2dd9-11f1-bfe2-ac361bece2a7
+2026-04-01 16:45:00,408 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:45:00,450 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5c3cba8a-2dd9-11f1-bfe2-ac361bece2a7
+2026-04-01 16:45:24,604 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for C:\Program Files\komorebi\bin\komorebi.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-04-01 16:45:52,493 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:45:52,501 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:45:52,604 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:45:52,605 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:45:52,615 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:45:52,633 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:45:52,635 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-01 16:45:52,901 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:45:52,901 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:45:52,901 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:45:53,015 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:45:53,392 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:45:53,393 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:45:53,393 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:45:53,394 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-7bd56155-2dd9-11f1-8bd7-ac361bece2a7
+2026-04-01 16:45:53,414 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:45:53,463 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-7bd56155-2dd9-11f1-8bd7-ac361bece2a7
+2026-04-01 16:45:54,674 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:45:54,678 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:45:54,790 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:45:54,791 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:45:54,794 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:45:54,808 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:45:55,073 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:45:55,074 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:45:55,074 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:45:55,186 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:45:55,553 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:45:55,554 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:45:55,554 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:45:55,555 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-7d1f03b2-2dd9-11f1-80fe-ac361bece2a7
+2026-04-01 16:45:55,578 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:45:55,636 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-7d1f03b2-2dd9-11f1-80fe-ac361bece2a7
+2026-04-01 16:48:35,158 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:48:35,163 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:48:35,275 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:48:35,275 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:48:35,279 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:48:35,303 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:48:35,555 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:48:35,555 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:48:35,555 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:48:35,621 [WARNING] [MainThread] [root/widget_builder.py:40]: No widget config could be found for widget 'active_window
+2026-04-01 16:48:35,668 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:48:36,009 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:48:36,010 [ERROR] [MainThread] [root/widget_builder.py:97]: Failed to add undefined widget(s)  - The widget "active_window" is undefined.
+2026-04-01 16:48:36,024 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-dcc2c039-2dd9-11f1-bcdb-ac361bece2a7
+2026-04-01 16:48:36,031 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:48:36,031 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:48:36,049 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:48:36,092 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-dcc2c039-2dd9-11f1-bcdb-ac361bece2a7
+2026-04-01 16:48:38,370 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:48:38,375 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:48:38,491 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:48:38,491 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:48:38,495 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:48:38,554 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:48:38,768 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:48:38,769 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:48:38,769 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:48:38,883 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:48:39,188 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:48:39,189 [INFO] [MainThread] [root/bar_manager.py:95]: Starting SystemEventListener...
+2026-04-01 16:48:39,189 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-dea7d497-2dd9-11f1-89b0-ac361bece2a7
+2026-04-01 16:48:39,190 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:48:39,191 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:48:39,219 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:48:39,253 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-dea7d497-2dd9-11f1-89b0-ac361bece2a7
+2026-04-01 16:48:40,895 [DEBUG] [MainThread] [root/utilities.py:262]: Failed to get version info for C:\Program Files\komorebi\bin\komorebi.exe: (1813, 'GetFileVersionInfo:GetFileVersionInfoSize', 'The specified resource type cannot be found in the image file.')
+2026-04-01 16:49:31,854 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:49:31,860 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:49:31,970 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:49:31,970 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:49:31,979 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:49:31,993 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:49:31,993 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping SystemEventListener...
+2026-04-01 16:49:32,254 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:49:32,255 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:49:32,255 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:49:32,361 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:49:32,728 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:49:32,728 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:49:32,728 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:49:32,729 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-fe91475c-2dd9-11f1-8b86-ac361bece2a7
+2026-04-01 16:49:32,756 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:49:32,786 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-fe91475c-2dd9-11f1-8b86-ac361bece2a7
+2026-04-01 16:49:33,413 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 16:49:33,418 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 16:49:33,519 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 16:49:33,519 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 16:49:33,525 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 16:49:33,535 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 16:49:33,808 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 16:49:33,808 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 16:49:33,809 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 16:49:33,928 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 16:49:34,300 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 16:49:34,300 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-ff81279e-2dd9-11f1-bdcf-ac361bece2a7
+2026-04-01 16:49:34,301 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 16:49:34,301 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 16:49:34,330 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 16:49:34,363 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-ff81279e-2dd9-11f1-bdcf-ac361bece2a7
+2026-04-01 16:51:49,496 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-01 16:53:23,529 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-01 17:03:31,254 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-01 17:05:55,512 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 17:05:55,518 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 17:05:55,518 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-01 17:05:55,631 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 17:05:55,631 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 17:05:55,635 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 17:05:55,658 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 17:05:55,911 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 17:05:55,911 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 17:05:55,911 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 17:05:56,024 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-01 17:05:56,052 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:05:56,067 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 17:05:56,446 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 17:05:56,447 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-48e8d4d0-2ddc-11f1-b674-ac361bece2a7
+2026-04-01 17:05:56,448 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 17:05:56,448 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 17:05:56,477 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 17:05:56,549 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-48e8d4d0-2ddc-11f1-b674-ac361bece2a7
+2026-04-01 17:07:29,715 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 17:07:29,715 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 17:07:29,716 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 17:07:29,838 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-01 17:07:29,863 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:29,877 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 17:07:30,217 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 17:07:30,219 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 17:07:30,219 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 17:07:30,219 [INFO] [Dummy-7] [root/event_listener.py:55]: Created named pipe yasb-80cd21a6-2ddc-11f1-8d50-ac361bece2a7
+2026-04-01 17:07:30,241 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 17:07:30,273 [INFO] [Dummy-7] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-80cd21a6-2ddc-11f1-8d50-ac361bece2a7
+2026-04-01 17:07:36,423 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:36,424 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:37,342 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:37,344 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:38,998 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:40,255 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:41,583 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:43,217 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:07:44,879 [ERROR] [MainThread] [root/volume.py:561]: Failed to get volume info: list index out of range
+2026-04-01 17:08:06,025 [DEBUG] [Thread-5] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-01 17:08:06,030 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-01 17:08:06,030 [DEBUG] [Thread-5] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-01 17:08:06,143 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-01 17:08:06,143 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-01 17:08:06,147 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-01 17:08:06,178 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-01 17:08:06,412 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-01 17:08:06,412 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-01 17:08:06,413 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-01 17:08:06,514 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-01 17:08:06,822 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-01 17:08:06,822 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-01 17:08:06,823 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-01 17:08:06,823 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-969e8aa6-2ddc-11f1-b30b-ac361bece2a7
+2026-04-01 17:08:06,843 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-01 17:08:06,884 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-969e8aa6-2ddc-11f1-b30b-ac361bece2a7
+2026-04-02 02:26:21,614 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 02:30:08,940 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 02:30:08,941 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 03:54:50,656 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 03:55:07,970 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 03:55:07,972 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 03:55:12,905 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 03:55:12,909 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:11:01,841 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:11:02,064 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:15:32,433 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:15:32,434 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:15:33,682 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:15:33,881 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:20:05,656 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:20:05,657 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:20:06,916 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 04:20:07,002 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 05:14:17,614 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 05:14:17,615 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 05:14:18,872 [ERROR] [MainThread] [MediaWidget/media.py:1067]: Error creating corner mask, return default thumb: y1 must be greater than or equal to y0
+2026-04-02 05:14:43,031 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-02 05:15:09,199 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-02 05:15:09,205 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-02 05:15:09,308 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-02 05:15:09,308 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-02 05:15:09,314 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-02 05:15:09,327 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-02 05:15:10,343 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 05:15:10,343 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 05:15:10,344 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 05:15:10,786 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 05:15:11,558 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 05:15:11,559 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 05:15:11,559 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 05:15:11,559 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-28fd031a-2e42-11f1-8b93-ac361bece2a7
+2026-04-02 05:15:11,799 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 05:15:11,862 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-28fd031a-2e42-11f1-8b93-ac361bece2a7
+2026-04-02 05:15:59,811 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-02 05:15:59,817 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-02 05:15:59,923 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-02 05:15:59,923 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-02 05:15:59,927 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-02 05:15:59,941 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-02 05:16:00,212 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 05:16:00,212 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 05:16:00,212 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 05:16:00,319 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 05:16:00,749 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 05:16:00,750 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 05:16:00,750 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 05:16:00,751 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-464efeba-2e42-11f1-b496-ac361bece2a7
+2026-04-02 05:16:00,781 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 05:16:00,886 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-464efeba-2e42-11f1-b496-ac361bece2a7
+2026-04-02 07:08:57,064 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-02 10:48:31,671 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 10:48:31,672 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 10:48:31,673 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 10:48:31,896 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 10:48:32,613 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 10:48:32,613 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-ba8bc30d-2e70-11f1-80d0-ac361bece2a7
+2026-04-02 10:48:32,613 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 10:48:32,613 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 10:48:32,833 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 10:49:13,712 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 10:49:13,712 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 10:49:13,713 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 10:49:14,066 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 10:49:14,433 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 10:49:14,433 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 10:49:14,433 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 10:49:14,433 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-d378f97a-2e70-11f1-8eaa-ac361bece2a7
+2026-04-02 10:49:14,623 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 10:49:14,657 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d378f97a-2e70-11f1-8eaa-ac361bece2a7
+2026-04-02 11:20:11,143 [INFO] [MainThread] [root/bar_manager.py:89]: Screens updated. Re-initialising all bars.
+2026-04-02 11:20:11,143 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of screen update.
+2026-04-02 11:20:11,254 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-02 11:20:11,254 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-02 11:20:11,420 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-02 11:20:11,516 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 11:20:11,516 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 11:20:11,517 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 11:20:11,588 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 11:20:12,415 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 11:20:12,416 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 11:20:12,416 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 11:20:12,441 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-26eaab99-2e75-11f1-90bd-ac361bece2a7
+2026-04-02 11:20:12,451 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 11:20:12,497 [INFO] [MainThread] [root/bar_manager.py:89]: Screens updated. Re-initialising all bars.
+2026-04-02 11:20:12,497 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of screen update.
+2026-04-02 11:20:12,533 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-26eaab99-2e75-11f1-90bd-ac361bece2a7
+2026-04-02 11:20:12,609 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-02 11:20:12,609 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-02 11:20:12,652 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-02 11:20:12,900 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 11:20:12,901 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 11:20:12,901 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 11:20:12,985 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 11:20:15,632 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 11:20:15,634 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-28d58026-2e75-11f1-aba1-ac361bece2a7
+2026-04-02 11:20:15,634 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 11:20:15,634 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 11:20:15,726 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-28d58026-2e75-11f1-aba1-ac361bece2a7
+2026-04-02 11:20:15,726 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 11:20:15,756 [INFO] [MainThread] [root/bar_manager.py:89]: Screens updated. Re-initialising all bars.
+2026-04-02 11:20:15,756 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of screen update.
+2026-04-02 11:20:15,864 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-02 11:20:15,864 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-02 11:20:15,868 [INFO] [MainThread] [root/bar_helper.py:561]: AppBarManager need to re-register 1 bar
+2026-04-02 11:20:15,869 [ERROR] [MainThread] [root/bar_helper.py:572]: Failed to re-register bar: wrapped C/C++ object of type QScreen has been deleted
+2026-04-02 11:20:15,911 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-02 11:20:16,108 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-02 11:20:16,108 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-02 11:20:16,109 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-02 11:20:16,185 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-02 11:20:16,535 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-02 11:20:16,535 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-02 11:20:16,535 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-02 11:20:16,535 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-295f34ae-2e75-11f1-a167-ac361bece2a7
+2026-04-02 11:20:16,551 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-02 11:20:16,587 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-295f34ae-2e75-11f1-a167-ac361bece2a7
+2026-04-05 14:46:41,055 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-05 14:46:41,067 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-05 14:48:25,098 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-05 14:48:29,070 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-05 14:48:29,078 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-05 14:48:29,186 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-05 14:48:29,186 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-05 14:48:29,198 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-05 14:48:29,220 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-05 14:48:30,273 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-05 14:48:30,274 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-05 14:48:30,274 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-05 14:48:30,633 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-05 14:48:32,161 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-05 14:48:32,162 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-05 14:48:32,162 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-05 14:48:32,163 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-c095b9c3-30ed-11f1-902b-ac361bece2a7
+2026-04-05 14:48:32,421 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-05 14:48:32,530 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-c095b9c3-30ed-11f1-902b-ac361bece2a7
+2026-04-05 14:48:50,655 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-05 14:50:35,271 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-05 14:50:35,277 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-05 14:50:35,386 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-05 14:50:35,386 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-05 14:50:35,390 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-05 14:50:35,400 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-05 14:50:35,656 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-05 14:50:35,657 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-05 14:50:35,657 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-05 14:50:35,814 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-05 14:50:36,282 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-05 14:50:36,283 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-05 14:50:36,283 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-05 14:50:36,283 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-0a912495-30ee-11f1-a372-ac361bece2a7
+2026-04-05 14:50:36,368 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-05 14:50:36,406 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-0a912495-30ee-11f1-a372-ac361bece2a7
+2026-04-05 14:50:46,092 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-05 14:52:49,471 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-05 14:52:49,477 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-05 14:52:49,477 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-05 14:52:49,582 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-05 14:52:49,583 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-05 14:52:49,587 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-05 14:52:49,615 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-05 14:52:49,876 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-05 14:52:49,876 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-05 14:52:49,877 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-05 14:52:50,046 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-05 14:52:50,475 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-05 14:52:50,476 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-05 14:52:50,476 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-05 14:52:50,477 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-5a8d60a8-30ee-11f1-942c-ac361bece2a7
+2026-04-05 14:52:50,561 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-05 14:52:50,597 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5a8d60a8-30ee-11f1-942c-ac361bece2a7
+2026-04-05 18:07:54,530 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-05 18:07:54,533 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-05 18:07:57,534 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-5a8d60a8-30ee-11f1-942c-ac361bece2a7
+2026-04-05 18:08:06,688 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-05 18:08:06,689 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-05 18:08:06,689 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-05 18:08:07,043 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-05 18:08:08,224 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-05 18:08:08,227 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-05 18:08:08,227 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-05 18:08:08,499 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-a2e05862-3109-11f1-8952-ac361bece2a7
+2026-04-05 18:08:08,508 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-05 18:08:08,608 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-a2e05862-3109-11f1-8952-ac361bece2a7
+2026-04-06 11:45:48,302 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-06 11:45:48,305 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-06 11:45:53,161 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-06 11:45:53,161 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-06 11:45:53,162 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-06 11:45:53,563 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-06 11:45:54,033 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-06 11:45:54,034 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-06 11:45:54,034 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-06 11:45:54,316 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-6771dcfc-319d-11f1-b922-ac361bece2a7
+2026-04-06 11:45:54,326 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-06 11:45:54,441 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-6771dcfc-319d-11f1-b922-ac361bece2a7
+2026-04-06 11:49:08,703 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-06 11:50:39,602 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-06 11:50:39,603 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-06 11:50:39,603 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-06 11:50:39,963 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-06 11:50:40,989 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-06 11:50:40,989 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-06 11:50:40,989 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-06 11:50:40,989 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-127bc96a-319e-11f1-9768-ac361bece2a7
+2026-04-06 11:50:41,194 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-06 11:50:54,700 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-06 11:50:54,700 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-06 11:50:54,700 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-06 11:50:55,015 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-06 11:50:55,366 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-06 11:50:55,367 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-06 11:50:55,367 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-06 11:50:55,367 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-1b0d9cf7-319e-11f1-b74f-ac361bece2a7
+2026-04-06 11:50:55,557 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-06 11:50:55,598 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1b0d9cf7-319e-11f1-b74f-ac361bece2a7
+2026-04-06 12:30:12,033 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-06 12:30:12,034 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-06 12:30:15,051 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-1b0d9cf7-319e-11f1-b74f-ac361bece2a7
+2026-04-06 12:30:36,627 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-06 12:30:36,628 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-06 12:30:36,628 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-06 12:30:36,953 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-06 12:30:37,788 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-06 12:30:37,788 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-06 12:30:37,789 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-06 12:30:37,789 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-a7164ff4-31a3-11f1-8510-ac361bece2a7
+2026-04-06 12:30:38,099 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-a7164ff4-31a3-11f1-8510-ac361bece2a7
+2026-04-06 12:30:38,101 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 10:49:10,706 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-07 12:11:17,597 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-07 12:11:17,604 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-07 12:11:17,709 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-07 12:11:17,709 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-07 12:11:17,712 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-07 12:11:17,734 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-07 12:11:17,955 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 12:11:17,956 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 12:11:17,956 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 12:11:18,056 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-07 12:11:18,353 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 12:11:18,355 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 12:11:18,355 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 12:11:18,355 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-1e6c6ca4-326a-11f1-9d2b-ac361bece2a7
+2026-04-07 12:11:18,390 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 12:11:18,420 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1e6c6ca4-326a-11f1-9d2b-ac361bece2a7
+2026-04-07 12:11:20,385 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 12:11:20,386 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 12:11:23,387 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-1e6c6ca4-326a-11f1-9d2b-ac361bece2a7
+2026-04-07 12:11:25,239 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 12:11:25,239 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 12:11:25,239 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 12:11:25,335 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-07 12:11:25,661 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 12:11:25,663 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 12:11:25,663 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 12:11:25,663 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-22c7849c-326a-11f1-a38c-ac361bece2a7
+2026-04-07 12:11:25,686 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 12:11:25,732 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-22c7849c-326a-11f1-a38c-ac361bece2a7
+2026-04-07 12:20:27,635 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-07 12:20:27,641 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-04-07 12:20:27,746 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-07 12:20:27,746 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-07 12:20:27,753 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-04-07 12:20:27,761 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-07 12:20:27,997 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 12:20:27,998 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 12:20:27,998 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 12:20:28,335 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 12:20:28,337 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 12:20:28,337 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 12:20:28,353 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-663d2ffd-326b-11f1-9b7b-ac361bece2a7
+2026-04-07 12:20:28,359 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 12:20:28,439 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-663d2ffd-326b-11f1-9b7b-ac361bece2a7
+2026-04-07 15:04:02,772 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:04:02,773 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:04:02,773 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:04:02,774 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-07 15:04:06,665 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:04:06,665 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:04:06,666 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:04:06,666 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-07 15:04:09,550 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:04:09,551 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:04:09,551 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:04:09,551 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-07 15:13:25,790 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 15:13:25,793 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 15:13:27,492 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:13:27,492 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:13:27,493 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:13:27,815 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 15:13:27,817 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 15:13:27,818 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 15:13:27,818 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-90e3fb7d-3283-11f1-946a-ac361bece2a7
+2026-04-07 15:13:27,858 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 15:13:27,897 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-90e3fb7d-3283-11f1-946a-ac361bece2a7
+2026-04-07 15:18:16,004 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 15:18:16,005 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 15:18:17,730 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:18:17,731 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:18:17,731 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:18:18,064 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 15:18:18,065 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 15:18:18,065 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 15:18:18,065 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-3de45ae6-3284-11f1-a928-ac361bece2a7
+2026-04-07 15:18:18,099 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 15:18:18,183 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-3de45ae6-3284-11f1-a928-ac361bece2a7
+2026-04-07 15:18:58,880 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 15:18:58,880 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 15:19:01,886 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-3de45ae6-3284-11f1-a928-ac361bece2a7
+2026-04-07 15:19:07,820 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:19:07,820 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:19:07,820 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:19:08,250 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 15:19:08,252 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 15:19:08,252 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 15:19:08,278 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-5bce5891-3284-11f1-8e8a-ac361bece2a7
+2026-04-07 15:19:08,288 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 15:19:08,365 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-5bce5891-3284-11f1-8e8a-ac361bece2a7
+2026-04-07 15:20:45,183 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 15:20:45,184 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 15:20:48,191 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-5bce5891-3284-11f1-8e8a-ac361bece2a7
+2026-04-07 15:20:55,277 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 15:20:55,278 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 15:20:55,278 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 15:20:55,752 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 15:20:55,753 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 15:20:55,753 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 15:20:55,754 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-9be1bf55-3284-11f1-866f-ac361bece2a7
+2026-04-07 15:20:55,796 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 15:20:55,829 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-9be1bf55-3284-11f1-866f-ac361bece2a7
+2026-04-07 16:09:21,879 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:09:21,879 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:09:26,025 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:09:26,025 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:09:26,025 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:09:26,373 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:09:26,374 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:09:26,374 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:09:26,375 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-62bf3a27-328b-11f1-8943-ac361bece2a7
+2026-04-07 16:09:26,399 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:09:26,470 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-62bf3a27-328b-11f1-8943-ac361bece2a7
+2026-04-07 16:13:44,066 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:13:44,066 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:13:48,155 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:13:48,156 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:13:48,156 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:13:48,493 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:13:48,495 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:13:48,495 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:13:48,495 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-fefb9c67-328b-11f1-b44f-ac361bece2a7
+2026-04-07 16:13:48,538 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:13:48,576 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-fefb9c67-328b-11f1-b44f-ac361bece2a7
+2026-04-07 16:23:06,525 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:23:06,526 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:23:09,540 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-fefb9c67-328b-11f1-b44f-ac361bece2a7
+2026-04-07 16:23:14,605 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:23:14,606 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:23:14,606 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:23:15,987 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:23:15,987 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:23:15,987 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:23:15,988 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-513c3223-328d-11f1-9023-ac361bece2a7
+2026-04-07 16:23:16,301 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:23:16,370 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-513c3223-328d-11f1-9023-ac361bece2a7
+2026-04-07 16:31:30,735 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:31:30,735 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:31:34,878 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:31:34,878 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:31:34,879 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:31:35,706 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:31:35,708 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-7b174351-328e-11f1-a9a5-ac361bece2a7
+2026-04-07 16:31:35,708 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:31:35,708 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:31:35,966 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-7b174351-328e-11f1-a9a5-ac361bece2a7
+2026-04-07 16:31:35,967 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:35:58,874 [WARNING] [Dummy-4] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:35:58,875 [INFO] [Dummy-4] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:36:03,029 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:36:03,030 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:36:03,030 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:36:03,371 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:36:03,372 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:36:03,372 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:36:03,372 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-1aa1cf20-328f-11f1-ac89-ac361bece2a7
+2026-04-07 16:36:03,405 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:36:03,451 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1aa1cf20-328f-11f1-ac89-ac361bece2a7
+2026-04-07 16:44:28,714 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:44:28,714 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:44:32,833 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:44:32,833 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:44:32,833 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:44:33,955 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:44:33,956 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:44:33,956 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:44:33,956 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-4af6a285-3290-11f1-bcde-ac361bece2a7
+2026-04-07 16:44:34,251 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-4af6a285-3290-11f1-bcde-ac361bece2a7
+2026-04-07 16:44:34,255 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:51:07,888 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 16:51:07,888 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 16:51:12,020 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 16:51:12,021 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 16:51:12,021 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 16:51:12,384 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 16:51:12,384 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 16:51:12,384 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 16:51:12,385 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-387218ca-3291-11f1-b4ee-ac361bece2a7
+2026-04-07 16:51:12,413 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 16:51:12,481 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-387218ca-3291-11f1-b4ee-ac361bece2a7
+2026-04-07 18:42:25,790 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml
+2026-04-07 22:17:27,498 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 22:17:27,499 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 22:17:32,284 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 22:17:32,285 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 22:17:32,285 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 22:17:32,910 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 22:17:32,912 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 22:17:32,912 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 22:17:32,912 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-cf593bb6-32be-11f1-9404-ac361bece2a7
+2026-04-07 22:17:33,163 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-cf593bb6-32be-11f1-9404-ac361bece2a7
+2026-04-07 22:17:33,164 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 22:19:01,221 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 22:19:01,221 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 22:19:05,337 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 22:19:05,338 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 22:19:05,338 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 22:19:05,726 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 22:19:05,727 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 22:19:05,727 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 22:19:05,751 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-06abfcfb-32bf-11f1-875d-ac361bece2a7
+2026-04-07 22:19:05,757 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 22:19:05,836 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-06abfcfb-32bf-11f1-875d-ac361bece2a7
+2026-04-07 22:25:21,360 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 22:25:21,360 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 22:25:25,493 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 22:25:25,493 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 22:25:25,493 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 22:25:25,949 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 22:25:25,949 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 22:25:25,949 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 22:25:25,974 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-e94d466d-32bf-11f1-9148-ac361bece2a7
+2026-04-07 22:25:25,991 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 22:25:26,068 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e94d466d-32bf-11f1-9148-ac361bece2a7
+2026-04-07 22:28:55,480 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 22:28:55,480 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 22:28:59,630 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 22:28:59,630 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 22:28:59,630 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 22:29:00,090 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 22:29:00,090 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 22:29:00,090 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 22:29:00,091 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-68f09198-32c0-11f1-b467-ac361bece2a7
+2026-04-07 22:29:00,121 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 22:29:00,195 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-68f09198-32c0-11f1-b467-ac361bece2a7
+2026-04-07 22:31:26,782 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-07 22:31:26,782 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-07 22:31:30,951 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-07 22:31:30,952 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-07 22:31:30,952 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-07 22:31:31,430 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-07 22:31:31,432 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-07 22:31:31,433 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-07 22:31:31,433 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-c3255a0c-32c0-11f1-b8ce-ac361bece2a7
+2026-04-07 22:31:31,489 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-07 22:31:31,523 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-c3255a0c-32c0-11f1-b8ce-ac361bece2a7
+2026-04-07 22:34:00,932 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-08 08:54:28,989 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 08:54:28,990 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 08:54:28,991 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 08:54:29,926 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 08:54:29,927 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 08:54:29,927 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 08:54:29,927 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-ca772d7f-3317-11f1-aeb8-ac361bece2a7
+2026-04-08 08:54:30,134 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 08:54:57,027 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 08:54:57,028 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 08:54:57,028 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 08:54:57,472 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 08:54:57,472 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 08:54:57,473 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 08:54:57,472 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-dae24de8-3317-11f1-8c2b-ac361bece2a7
+2026-04-08 08:54:57,502 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 08:54:57,541 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-dae24de8-3317-11f1-8c2b-ac361bece2a7
+2026-04-08 09:22:58,347 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 09:22:58,347 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 09:23:03,168 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 09:23:03,169 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 09:23:03,169 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 09:23:03,672 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 09:23:03,672 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 09:23:03,673 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 09:23:03,674 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-c7f0006e-331b-11f1-929d-ac361bece2a7
+2026-04-08 09:23:03,902 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-c7f0006e-331b-11f1-929d-ac361bece2a7
+2026-04-08 09:23:03,902 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 09:25:56,543 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 09:25:56,543 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 09:26:00,710 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 09:26:00,711 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 09:26:00,711 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 09:26:01,007 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 09:26:01,009 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 09:26:01,009 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 09:26:01,009 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-31a33239-331c-11f1-b761-ac361bece2a7
+2026-04-08 09:26:01,026 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 09:26:01,064 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-31a33239-331c-11f1-b761-ac361bece2a7
+2026-04-08 09:29:30,594 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 09:29:30,594 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 09:29:34,727 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 09:29:34,727 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 09:29:34,727 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 09:29:35,022 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 09:29:35,023 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-b133609a-331c-11f1-95bc-ac361bece2a7
+2026-04-08 09:29:35,024 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 09:29:35,025 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 09:29:35,039 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 09:29:35,076 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-b133609a-331c-11f1-95bc-ac361bece2a7
+2026-04-08 09:34:29,877 [WARNING] [Dummy-4] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 09:34:29,877 [INFO] [Dummy-4] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 09:34:34,051 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 09:34:34,051 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 09:34:34,051 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 09:34:34,345 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 09:34:34,346 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 09:34:34,346 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 09:34:34,346 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-639c654b-331d-11f1-906e-ac361bece2a7
+2026-04-08 09:34:34,363 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 09:34:34,396 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-639c654b-331d-11f1-906e-ac361bece2a7
+2026-04-08 09:39:10,005 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 09:39:10,005 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 09:39:14,140 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 09:39:14,141 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 09:39:14,141 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 09:39:14,442 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 09:39:14,446 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 09:39:14,446 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 09:39:14,446 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-0a8fdf5b-331e-11f1-8d71-ac361bece2a7
+2026-04-08 09:39:14,460 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 09:39:14,498 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-0a8fdf5b-331e-11f1-8d71-ac361bece2a7
+2026-04-08 09:46:07,024 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 09:46:07,024 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 09:46:11,167 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 09:46:11,167 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 09:46:11,167 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 09:46:11,440 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 09:46:11,440 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 09:46:11,440 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 09:46:11,441 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-031c96f9-331f-11f1-a203-ac361bece2a7
+2026-04-08 09:46:11,455 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 09:46:11,488 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-031c96f9-331f-11f1-a203-ac361bece2a7
+2026-04-08 16:34:12,852 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 16:34:12,852 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 16:34:17,633 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 16:34:17,634 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 16:34:17,634 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 16:34:18,206 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 16:34:18,206 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 16:34:18,206 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 16:34:18,207 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-065c89d2-3358-11f1-bf3a-ac361bece2a7
+2026-04-08 16:34:18,421 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-065c89d2-3358-11f1-bf3a-ac361bece2a7
+2026-04-08 16:34:18,421 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 16:34:52,984 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 16:34:52,984 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 16:34:56,001 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-065c89d2-3358-11f1-bf3a-ac361bece2a7
+2026-04-08 16:38:24,831 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 16:38:24,831 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 16:38:24,832 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 16:38:25,269 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 16:38:25,270 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 16:38:25,270 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 16:38:25,288 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-999f74ae-3358-11f1-82f0-ac361bece2a7
+2026-04-08 16:38:25,299 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 16:38:25,377 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-999f74ae-3358-11f1-82f0-ac361bece2a7
+2026-04-08 16:39:36,905 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-08 16:41:00,598 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 16:41:00,600 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 16:41:00,601 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 16:41:01,385 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 16:41:01,386 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-f6acdbc7-3358-11f1-aa29-ac361bece2a7
+2026-04-08 16:41:01,386 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 16:41:01,386 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 16:41:01,593 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 16:41:19,030 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 16:41:19,031 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 16:41:19,031 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 16:41:19,601 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 16:41:19,601 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-0188525d-3359-11f1-954e-ac361bece2a7
+2026-04-08 16:41:19,601 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 16:41:19,601 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 16:41:19,797 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 16:41:19,826 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-0188525d-3359-11f1-954e-ac361bece2a7
+2026-04-08 17:24:48,630 [WARNING] [Dummy-4] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 17:24:48,630 [INFO] [Dummy-4] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 17:24:53,586 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 17:24:53,586 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 17:24:53,586 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 17:24:54,506 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 17:24:54,507 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 17:24:54,507 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 17:24:54,507 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-18232a15-335f-11f1-88e0-ac361bece2a7
+2026-04-08 17:24:54,712 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-18232a15-335f-11f1-88e0-ac361bece2a7
+2026-04-08 17:24:54,713 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 17:25:21,100 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-08 17:25:21,100 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-08 17:25:25,296 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-08 17:25:25,296 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-08 17:25:25,297 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-08 17:25:25,604 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-08 17:25:25,606 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-2aac7784-335f-11f1-af2d-ac361bece2a7
+2026-04-08 17:25:25,606 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-08 17:25:25,606 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-08 17:25:25,621 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-08 17:25:25,686 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-2aac7784-335f-11f1-af2d-ac361bece2a7
+2026-04-09 07:12:39,940 [WARNING] [Dummy-4] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-09 07:12:39,941 [INFO] [Dummy-4] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-09 07:12:42,954 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-2aac7784-335f-11f1-af2d-ac361bece2a7
+2026-04-09 07:12:52,793 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 07:12:52,794 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 07:12:52,794 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 07:12:53,115 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 07:12:53,115 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-c2e54ab5-33d2-11f1-8ea3-ac361bece2a7
+2026-04-09 07:12:53,115 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-09 07:12:53,116 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 07:12:53,131 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 07:12:53,166 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-c2e54ab5-33d2-11f1-8ea3-ac361bece2a7
+2026-04-09 07:13:09,098 [WARNING] [Dummy-4] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-09 07:13:09,098 [INFO] [Dummy-4] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-09 07:13:13,265 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 07:13:13,266 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 07:13:13,266 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 07:13:13,555 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 07:13:13,556 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-cf14501c-33d2-11f1-975b-ac361bece2a7
+2026-04-09 07:13:13,557 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-09 07:13:13,557 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 07:13:13,571 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 07:13:13,606 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-cf14501c-33d2-11f1-975b-ac361bece2a7
+2026-04-09 08:54:01,507 [WARNING] [Dummy-4] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-09 08:54:01,508 [INFO] [Dummy-4] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-09 08:54:06,421 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 08:54:06,421 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 08:54:06,421 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 08:54:06,938 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 08:54:06,940 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-e72d4476-33e0-11f1-b603-ac361bece2a7
+2026-04-09 08:54:06,941 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-09 08:54:06,941 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 08:54:07,143 [INFO] [Dummy-4] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e72d4476-33e0-11f1-b603-ac361bece2a7
+2026-04-09 08:54:07,143 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 08:55:05,532 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-09 12:15:26,172 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 12:15:26,174 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 12:15:26,174 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 12:15:27,092 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 12:15:27,092 [INFO] [Dummy-4] [root/event_listener.py:55]: Created named pipe yasb-078263b9-33fd-11f1-91fe-ac361bece2a7
+2026-04-09 12:15:27,092 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-09 12:15:27,093 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 12:15:27,298 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 12:19:47,220 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 12:19:47,221 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 12:19:47,221 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 12:19:47,827 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 12:19:47,828 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pc\.config\yasb
+2026-04-09 12:19:47,828 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 12:19:47,829 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-a2eb683b-33fd-11f1-8a67-ac361bece2a7
+2026-04-09 12:19:48,097 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 12:19:48,140 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-a2eb683b-33fd-11f1-8a67-ac361bece2a7
+2026-04-09 18:28:29,354 [DEBUG] [Thread-3] [root/watcher.py:84]: Stylesheet modified: c:\users\pc\.config\yasb\styles.css
+2026-04-09 18:28:29,355 [DEBUG] [Thread-3] [root/watcher.py:90]: Config file modified: c:\users\pc\.config\yasb\config.yaml

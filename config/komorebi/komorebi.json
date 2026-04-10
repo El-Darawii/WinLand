@@ -1,0 +1,150 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
+  "app_specific_configuration_path": "C:\\Users\\pc\\.config\\komorebi\\applications.json",
+  "animation": {
+    "enabled": false,
+    "duration": 150,
+    "style": "Linear"
+  },
+  "border": true,
+  "border_colours": {
+    "single": "#42a5f5",
+    "stack": "#ff8c00",
+    "monocle": "#b388ff",
+    "unfocused": "#1e2030"
+  },
+  "border_width": 2,
+  "cross_monitor_move_behaviour": "Insert",
+  "default_layout": "BSP",
+  "display_index_preferences": {},
+  "float_override": false,
+  "global_work_area_offset": {
+    "left": 0,
+    "top": 80,
+    "right": 0,
+    "bottom": 60
+  },
+  "hide_taskbar": true,
+  "mouse_follows_focus": true,
+  "monitors": [
+    {
+      "index": 0,
+      "work_area_offset": null,
+      "workspaces": [
+        { "name": "1", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "2", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "3", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "4", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "5", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "6", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "7", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "8", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "9", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 },
+        { "name": "0", "layout": "BSP", "container_padding": 8, "workspace_padding": 8 }
+      ]
+    }
+  ],
+  "resize_delta": 50,
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "Zebar.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "zebar.exe"
+    },
+    {
+      "kind": "Class",
+      "id": "zebar-bar"
+    },
+    {
+      "kind": "Class",
+      "id": "Tauri Window"
+    },
+    {
+      "kind": "Exe",
+      "id": "yasb.exe"
+    },
+    {
+      "kind": "Class",
+      "id": "yasb-bar"
+    }
+  ],
+  "identify_window_classes": [
+    "OpusApp",
+    "PPTLFrame",
+    "XLMAIN"
+  ],
+  "floating_applications": [
+    {
+      "kind": "Exe",
+      "id": "1Password.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "Telegram.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "steam.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "SystemSettings.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "CalculatorApp.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "SnippingTool.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "PowerLauncher.exe"
+    },
+    {
+      "kind": "Exe",
+      "id": "PowerToys.exe"
+    },
+    {
+      "kind": "Class",
+      "id": "Credential Dialog Xaml Host"
+    },
+    {
+      "kind": "Class",
+      "id": "CGameOverlayUIApp"
+    },
+    {
+      "kind": "Class",
+      "id": "CCPFrame"
+    },
+    {
+      "kind": "Class",
+      "id": "TaskManagerWindow"
+    },
+    {
+      "kind": "Class",
+      "id": "SunAwtDialog"
+    },
+    {
+      "kind": "Class",
+      "id": "#32770"
+    },
+    {
+      "kind": "Title",
+      "id": "Picture in picture"
+    }
+  ],
+  "stackbar": {
+    "enabled": false
+  },
+  "theme": null,
+  "transparency": false,
+  "transparency_alpha": 200,
+  "unmanaged_window_operation_behaviour": "Op",
+  "window_hiding_behaviour": "Cloak",
+  "window_container_behaviour": "Create"
+}

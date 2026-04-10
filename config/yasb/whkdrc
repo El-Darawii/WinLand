@@ -1,0 +1,7 @@
+# WHKD Configuration
+# Toggle microphone mute with Win+Backspace
+
+.shell pwsh
+
+# Microphone toggle
+alt + backspace : nircmd mutesysvolume 2
